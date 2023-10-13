@@ -1,18 +1,45 @@
-body{
+*{
     margin:0;
     padding:0;
+    color:white;
 }
 
-span{
+a{
     color:white;
-    margin-right: 10vw;
+    margin-right: 15vw;
     /* width:10%; will not work for inline element*/
+    text-decoration: none;
 }
 
 .navBar{
     height:7vh;
     padding-top: 10px;
     padding-left: 5px;
+    background-color: black;
+   
+}
+
+.content{
+    height:88vh;
+    background-color: brown;
+}
+
+.content div{
+   display:inline-block;
+   height:70vh;
+   width:25vw;
+   margin-top: 8vh;
+   margin-left : 4vw;
+   border: 5px solid greenyellow;
+} 
+
+.content div h1{
+    margin:3vh 0 9vh;
+    text-align: center;
+}
+
+footer{
+    /* height:7vh; */
     background-color: black;
 }
 
@@ -24,4 +51,8 @@ span{
 
 button{
     background-color:coral ;
+}
+
+p{
+    text-align: center;
 }
